@@ -2,9 +2,9 @@
   "name": "typed_design_patterns",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "ts-node ./index.js",
+    "start": "ts-node ./index.ts",
     "test": "jest"
   },
   "author": "",

@@ -1,9 +1,13 @@
 import { Sorter } from './src/Sorter';
-import { NumbersCollection } from './src/NumbersCollection';
+import { LinkedList } from './src/LinkedList';
 
-const numbersCollection = new NumbersCollection([10, 3, -5, 0]);
-const sorter = new Sorter(numbersCollection);
+const linkedList = new LinkedList();
+const sorter = new Sorter(linkedList);
+
+linkedList.add(3231);
+linkedList.add(1);
+linkedList.add(32);
+linkedList.add(31);
 
 sorter.sort();
-
-console.log(numbersCollection);
+linkedList.print();
